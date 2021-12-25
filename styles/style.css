@@ -1727,7 +1727,6 @@ button, input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 360px;
 }
 
 .reg-feedback__form__label {
@@ -1781,7 +1780,7 @@ button, input {
 .reg-feedback__radio-box {
   margin-top: 10px;
   margin-bottom: 32px;
-  width: 360px;
+  max-width: 360px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
